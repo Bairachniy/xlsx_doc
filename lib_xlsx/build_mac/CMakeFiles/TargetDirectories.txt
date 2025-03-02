@@ -1,0 +1,4 @@
+/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/CMakeFiles/SimpleXlsx.dir
+/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/CMakeFiles/install.dir
+/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/CMakeFiles/ALL_BUILD.dir
+/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/CMakeFiles/ZERO_CHECK.dir
