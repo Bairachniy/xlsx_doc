@@ -5,10 +5,10 @@ empty:=
 space:= $(empty) $(empty)
 spaceplus:= $(empty)\ $(empty)
 
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/CMakeFiles/3.31.6/CMakeCCompiler.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/CMakeFiles/3.31.6/CMakeSystem.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/CMakeLists.txt))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/user/exelize/xlsx/lib_xlsx/build_mac/CMakeFiles/3.31.6/CMakeCCompiler.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/user/exelize/xlsx/lib_xlsx/build_mac/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/user/exelize/xlsx/lib_xlsx/build_mac/CMakeFiles/3.31.6/CMakeSystem.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/user/exelize/xlsx/lib_xlsx/xlsx/CMakeLists.txt))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/share/cmake/Modules/CMakeCCompiler.cmake.in))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/share/cmake/Modules/CMakeCCompilerABI.c))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/share/cmake/Modules/CMakeCInformation.cmake))
@@ -117,5 +117,5 @@ TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/share/cmake/Modul
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/share/cmake/Modules/Platform/Linker/Apple-AppleClang.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/share/cmake/Modules/Platform/UnixPaths.cmake))
 
-/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/CMakeFiles/cmake.check_cache: $(TARGETS)
-	/usr/local/bin/cmake -S/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx -B/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac
+/Users/user/exelize/xlsx/lib_xlsx/build_mac/CMakeFiles/cmake.check_cache: $(TARGETS)
+	/usr/local/bin/cmake -S/Users/user/exelize/xlsx/lib_xlsx/xlsx -B/Users/user/exelize/xlsx/lib_xlsx/build_mac

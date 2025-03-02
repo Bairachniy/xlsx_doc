@@ -1,4 +1,4 @@
-# Install script for directory: /Users/user/exelize/xlsx/xlsx_doc2/lib_xlsx/xlsx
+# Install script for directory: /Users/user/exelize/xlsx/lib_xlsx/xlsx
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,29 +37,29 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
 endif()
 
-set(CMAKE_BINARY_DIR "/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac")
+set(CMAKE_BINARY_DIR "/Users/user/exelize/xlsx/lib_xlsx/build_mac")
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/Debug/libSimpleXlsxd.a")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/user/exelize/xlsx/lib_xlsx/build_mac/Debug/libSimpleXlsxd.a")
     if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libSimpleXlsxd.a" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libSimpleXlsxd.a")
       execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libSimpleXlsxd.a")
     endif()
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/Release/libSimpleXlsx.a")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/user/exelize/xlsx/lib_xlsx/build_mac/Release/libSimpleXlsx.a")
     if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libSimpleXlsx.a" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libSimpleXlsx.a")
       execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libSimpleXlsx.a")
     endif()
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/MinSizeRel/libSimpleXlsx.a")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/user/exelize/xlsx/lib_xlsx/build_mac/MinSizeRel/libSimpleXlsx.a")
     if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libSimpleXlsx.a" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libSimpleXlsx.a")
       execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libSimpleXlsx.a")
     endif()
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/RelWithDebInfo/libSimpleXlsx.a")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/user/exelize/xlsx/lib_xlsx/build_mac/RelWithDebInfo/libSimpleXlsx.a")
     if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libSimpleXlsx.a" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libSimpleXlsx.a")
       execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libSimpleXlsx.a")
@@ -69,55 +69,55 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    include("/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/CMakeFiles/SimpleXlsx.dir/install-cxx-module-bmi-Debug.cmake" OPTIONAL)
+    include("/Users/user/exelize/xlsx/lib_xlsx/build_mac/CMakeFiles/SimpleXlsx.dir/install-cxx-module-bmi-Debug.cmake" OPTIONAL)
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    include("/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/CMakeFiles/SimpleXlsx.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
+    include("/Users/user/exelize/xlsx/lib_xlsx/build_mac/CMakeFiles/SimpleXlsx.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    include("/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/CMakeFiles/SimpleXlsx.dir/install-cxx-module-bmi-MinSizeRel.cmake" OPTIONAL)
+    include("/Users/user/exelize/xlsx/lib_xlsx/build_mac/CMakeFiles/SimpleXlsx.dir/install-cxx-module-bmi-MinSizeRel.cmake" OPTIONAL)
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    include("/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/CMakeFiles/SimpleXlsx.dir/install-cxx-module-bmi-RelWithDebInfo.cmake" OPTIONAL)
+    include("/Users/user/exelize/xlsx/lib_xlsx/build_mac/CMakeFiles/SimpleXlsx.dir/install-cxx-module-bmi-RelWithDebInfo.cmake" OPTIONAL)
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/PathManager.hpp"
-    "/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/UTF8Encoder.hpp"
-    "/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/XMLWriter.hpp"
+    "/Users/user/exelize/xlsx/lib_xlsx/xlsx/PathManager.hpp"
+    "/Users/user/exelize/xlsx/lib_xlsx/xlsx/UTF8Encoder.hpp"
+    "/Users/user/exelize/xlsx/lib_xlsx/xlsx/XMLWriter.hpp"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/Xlsx" TYPE FILE FILES
-    "/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Chart.h"
-    "/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Chartsheet.h"
-    "/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Drawing.h"
-    "/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/SimpleXlsxDef.h"
-    "/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Workbook.h"
-    "/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Worksheet.h"
-    "/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/XlsxHeaders.h"
+    "/Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Chart.h"
+    "/Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Chartsheet.h"
+    "/Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Drawing.h"
+    "/Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/SimpleXlsxDef.h"
+    "/Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Workbook.h"
+    "/Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Worksheet.h"
+    "/Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/XlsxHeaders.h"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/XLSXColors" TYPE FILE FILES
-    "/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/XLSXColors/XLSXColorLib.h"
-    "/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/XLSXColors/clsRGBColorRecord.h"
+    "/Users/user/exelize/xlsx/lib_xlsx/xlsx/XLSXColors/XLSXColorLib.h"
+    "/Users/user/exelize/xlsx/lib_xlsx/xlsx/XLSXColors/clsRGBColorRecord.h"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/Zip" TYPE FILE FILES "/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Zip/zip.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/Zip" TYPE FILE FILES "/Users/user/exelize/xlsx/lib_xlsx/xlsx/Zip/zip.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/scratch" TYPE FILE FILES "/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/scratch/clsScratchTable.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/scratch" TYPE FILE FILES "/Users/user/exelize/xlsx/lib_xlsx/xlsx/scratch/clsScratchTable.h")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/install_local_manifest.txt"
+  file(WRITE "/Users/user/exelize/xlsx/lib_xlsx/build_mac/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -133,6 +133,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/user/exelize/xlsx/lib_xlsx/build_mac/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

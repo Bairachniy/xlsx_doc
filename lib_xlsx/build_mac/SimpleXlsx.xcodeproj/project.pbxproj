@@ -7,170 +7,170 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		38D659A570E13F3DAA23FE31 /* install */ = {
+		3C1012DB519DC63FC3EEA010 /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 388BA201104B467FB97AA537 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = 5E614862C43348CCA395CEF8 /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				E27E56CBE2024C4F9C2E1DDE /* PBXTargetDependency */,
+				AD38BED9403043169B0198A1 /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
-		54FE747793FF1BF4D830C9B9 /* ZERO_CHECK */ = {
+		4287CD49C60759DC19E30446 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 464AE460F5D64766B2823F14 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = CC06FDC491AC436CA87B6A49 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				AA903FBFF9BADA337385CC7D /* Generate CMakeFiles/ZERO_CHECK */,
+				15AF752AEFECBCECF1CD698D /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				B1F3A4F3CD534DF9A076F638 /* PBXTargetDependency */,
+				7E6C22C8991544B5A1EE379A /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		B4E720C8518CA675D32C7934 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5ECF63ED3D0D439F94DF6F77 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				31D68EA13C1A97E1864A46D8 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
 			dependencies = (
 			);
 			name = ZERO_CHECK;
 			productName = ZERO_CHECK;
 		};
-		F8FB958FDDC0C05AE9A5CF3F /* ALL_BUILD */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 82D4950A78A54073B10F6E3B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
-			buildPhases = (
-				219C375B4D1CEED1E6D97EE4 /* Generate CMakeFiles/ALL_BUILD */,
-			);
-			dependencies = (
-				4057FBBFFB6E4CBCB036491B /* PBXTargetDependency */,
-				3358CC63E91C4AB89ADC2E15 /* PBXTargetDependency */,
-			);
-			name = ALL_BUILD;
-			productName = ALL_BUILD;
-		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0684B3C4F5CC46FAA30FBB03 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Worksheet.cpp */ = {isa = PBXBuildFile; fileRef = CE520419AF7347379B710772 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Worksheet.cpp */; };
-		143B33361A634890836E3E06 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CD2E98B05CEB45AF95C16F4E /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/CMakeLists.txt */; };
-		166D60CC71B2448C8095E4EB /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/UTF8Encoder.hpp */ = {isa = PBXBuildFile; fileRef = EE8EBB17EA864087BAB6525C /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/UTF8Encoder.hpp */; };
-		1E2E1E5462A641C8955B2177 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Chartsheet.h */ = {isa = PBXBuildFile; fileRef = 85EA8FCC2DDF4F7CA0582678 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Chartsheet.h */; };
-		2AF8C79EC092445BB4289BB5 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/XLSXColors/clsRGBColorRecord.h */ = {isa = PBXBuildFile; fileRef = 6176BA943C8F4499A57F70C2 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/XLSXColors/clsRGBColorRecord.h */; };
-		323F40DD413744DA9829C985 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/XMLWriter.hpp */ = {isa = PBXBuildFile; fileRef = 417198500D134588A2C72FB6 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/XMLWriter.hpp */; };
-		4526505CFAF54F4C9D57FFB4 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/scratch/clsScratchTable.cpp */ = {isa = PBXBuildFile; fileRef = 2BC84D99709D48568D68E60B /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/scratch/clsScratchTable.cpp */; };
-		4699B5ACCD544324B3C7F158 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Workbook.cpp */ = {isa = PBXBuildFile; fileRef = 8C424128267047EABC7B7094 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Workbook.cpp */; };
-		5006D5CD201C4D258E551CCB /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Zip/zip.h */ = {isa = PBXBuildFile; fileRef = 4A9772F60368420E82589DCC /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Zip/zip.h */; };
-		55F2E48DCE034B50AD598053 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/XlsxHeaders.cpp */ = {isa = PBXBuildFile; fileRef = 8CE69A1697A449AC8716F1A4 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/XlsxHeaders.cpp */; };
-		5789542507444ED2B8E6AF26 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/XLSXColors/clsRGBColorRecord.cpp */ = {isa = PBXBuildFile; fileRef = D8E5A49EF65F4D6C84D6BDCC /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/XLSXColors/clsRGBColorRecord.cpp */; };
-		58DCD6945FD04C7CADDC875A /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Chart.h */ = {isa = PBXBuildFile; fileRef = CE34DDD85B574673B3B4580E /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Chart.h */; };
-		634779199B8E4ADF912E912D /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/scratch/clsScratchTable.h */ = {isa = PBXBuildFile; fileRef = 2090B4CFEFE2429D892006B6 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/scratch/clsScratchTable.h */; };
-		69CC6F3B574D4668BA4A79FB /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/XLSXColors/XLSXColorLib.cpp */ = {isa = PBXBuildFile; fileRef = 1569D42888DC4F34B88C2A73 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/XLSXColors/XLSXColorLib.cpp */; };
-		725F1AAFC91B4AEDA95E9A12 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Drawing.cpp */ = {isa = PBXBuildFile; fileRef = 9564541B01A348429C34CF45 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Drawing.cpp */; };
-		74D800166C8C4E31996F1A6B /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/SimpleXlsxDef.h */ = {isa = PBXBuildFile; fileRef = 60F4A58900A144E9A28761D5 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/SimpleXlsxDef.h */; };
-		7AB58E1929024F7987E227B8 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Workbook.h */ = {isa = PBXBuildFile; fileRef = 51D2DDA93DE34737948AC837 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Workbook.h */; };
-		7EF3F1E1A71B4493AD0F9474 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/PathManager.cpp */ = {isa = PBXBuildFile; fileRef = 7AB5754BB2864750B3D15DDC /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/PathManager.cpp */; };
-		800DAEA3BB3B4C80AFC888D1 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/SimpleXlsxDef.cpp */ = {isa = PBXBuildFile; fileRef = 39B1079EEDA049F99E5E4432 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/SimpleXlsxDef.cpp */; };
-		93813B3BBD6046D6B0EC7704 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Chart.cpp */ = {isa = PBXBuildFile; fileRef = 8505514CE5C545A19E19ACD6 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Chart.cpp */; };
-		992E5EB70F4D4A1ABFF9C448 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Drawing.h */ = {isa = PBXBuildFile; fileRef = FE3A739E55F349AA9F6A23BA /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Drawing.h */; };
-		A0A376A49E664D7CB383B952 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Worksheet.h */ = {isa = PBXBuildFile; fileRef = 645EE89CD042496AAC8D9CD8 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Worksheet.h */; };
-		D400D8960AE449C999B775B7 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/PathManager.hpp */ = {isa = PBXBuildFile; fileRef = EAF258269FC34B8DB22BF671 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/PathManager.hpp */; };
-		D588E2AAB88F40279561E82B /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Zip/zip.cpp */ = {isa = PBXBuildFile; fileRef = CDCA431F75534AA685A63286 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Zip/zip.cpp */; };
-		D96D587406DC43EB8F92DECC /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Chartsheet.cpp */ = {isa = PBXBuildFile; fileRef = 0873FF8831194F71AC30326E /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Chartsheet.cpp */; };
-		DB8145B3A91B412BB8651D87 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/XLSXColors/XLSXColorLib.h */ = {isa = PBXBuildFile; fileRef = 52BC278A147147559EBDBB0C /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/XLSXColors/XLSXColorLib.h */; };
-		DBA13C0A6DB04305AA74607B /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/XlsxHeaders.h */ = {isa = PBXBuildFile; fileRef = 4962D642E1024068B7350B7B /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/XlsxHeaders.h */; };
+		17349E68AC824C9093F7ED8C /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/SimpleXlsxDef.cpp */ = {isa = PBXBuildFile; fileRef = E634CD6B4F2C43CD97CC6417 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/SimpleXlsxDef.cpp */; };
+		1B21054DAE7E4BF48A0CE454 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6B1A755C42B04E2090460339 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/CMakeLists.txt */; };
+		1B9BA10DFF1C469DA60E6124 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/scratch/clsScratchTable.cpp */ = {isa = PBXBuildFile; fileRef = 763FB03353E545098C61D457 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/scratch/clsScratchTable.cpp */; };
+		23813D105CE9419EA1BFD451 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Chart.h */ = {isa = PBXBuildFile; fileRef = 26C5E6C560044AC1A8A4C680 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Chart.h */; };
+		285C3F38660E4E1594C0C474 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/XMLWriter.hpp */ = {isa = PBXBuildFile; fileRef = 16F3767994684118BE19EB06 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/XMLWriter.hpp */; };
+		2F096AD8916D40BFB84300A6 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Workbook.h */ = {isa = PBXBuildFile; fileRef = 90933340BC264AAEB1BD25D8 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Workbook.h */; };
+		3F79B806B7554A4F87F1F92F /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/XlsxHeaders.cpp */ = {isa = PBXBuildFile; fileRef = 2EB3916F5A04437F9B69DA9E /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/XlsxHeaders.cpp */; };
+		466BCE4B2D834E5290682B30 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/SimpleXlsxDef.h */ = {isa = PBXBuildFile; fileRef = AB190EC16DFA499AB0CCE8A0 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/SimpleXlsxDef.h */; };
+		49905D48A2594708878349B8 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/XLSXColors/clsRGBColorRecord.cpp */ = {isa = PBXBuildFile; fileRef = 91F9A3A754FA40A780E46497 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/XLSXColors/clsRGBColorRecord.cpp */; };
+		52A98D9BCD8A4F5594EBA894 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/XLSXColors/XLSXColorLib.cpp */ = {isa = PBXBuildFile; fileRef = 6525AEDA2E0E43BB9D3D536E /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/XLSXColors/XLSXColorLib.cpp */; };
+		6130E7C9FDF24D2B87843522 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Chartsheet.cpp */ = {isa = PBXBuildFile; fileRef = 6A1505AFED0B4752AA9D5ADE /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Chartsheet.cpp */; };
+		66FDC7A159C34192BBD20340 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/XLSXColors/XLSXColorLib.h */ = {isa = PBXBuildFile; fileRef = EF65BEE458FB495187E0DC5E /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/XLSXColors/XLSXColorLib.h */; };
+		759E14A724FB4113A356D980 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Drawing.h */ = {isa = PBXBuildFile; fileRef = 4B7B3B55FA3D4FEA90D317C4 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Drawing.h */; };
+		76149AA9187045E3A4ADC13D /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/XlsxHeaders.h */ = {isa = PBXBuildFile; fileRef = 4A49FB1DEA0D4F8D9B5C5813 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/XlsxHeaders.h */; };
+		8BA202161DE14B08A9FC5B08 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Workbook.cpp */ = {isa = PBXBuildFile; fileRef = 6D006E04B22D49CAA8E51DD3 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Workbook.cpp */; };
+		91456D822ABB49B68057CB3E /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Chart.cpp */ = {isa = PBXBuildFile; fileRef = C028F1037F6044D18843AFD4 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Chart.cpp */; };
+		977370887E0445C8891B4135 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Zip/zip.cpp */ = {isa = PBXBuildFile; fileRef = D8DF2A3067CC423A95D6763B /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Zip/zip.cpp */; };
+		A61B5F3DDE5C4836A18FB34D /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Drawing.cpp */ = {isa = PBXBuildFile; fileRef = 162BEBB0AEC34AEDA2FB6E9C /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Drawing.cpp */; };
+		AC3A8EAC866B486C9443F976 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/PathManager.cpp */ = {isa = PBXBuildFile; fileRef = E240B5EA96B14EB8B3B3ADC0 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/PathManager.cpp */; };
+		AE469FECD41F4A90B131FA47 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/PathManager.hpp */ = {isa = PBXBuildFile; fileRef = F9F69B13423643648B0A5BCE /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/PathManager.hpp */; };
+		AF4ECFA12CB94F20854E0AA9 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/XLSXColors/clsRGBColorRecord.h */ = {isa = PBXBuildFile; fileRef = EB44FF1356D04A0EB5AE5916 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/XLSXColors/clsRGBColorRecord.h */; };
+		C1C6FFD2349A428598541A2A /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Zip/zip.h */ = {isa = PBXBuildFile; fileRef = 119B1F9DC0C14DA7A8B19638 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Zip/zip.h */; };
+		C6FBFE6CAB124E12B4265492 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Worksheet.cpp */ = {isa = PBXBuildFile; fileRef = ADE3FECB4AC445AAA9FBEFC3 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Worksheet.cpp */; };
+		CE619A57639442F4BE8E1D10 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Chartsheet.h */ = {isa = PBXBuildFile; fileRef = 4E782C8C676E4779983F445E /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Chartsheet.h */; };
+		DDCFD1580F4843C4B8365F2C /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Worksheet.h */ = {isa = PBXBuildFile; fileRef = 388F0D56CB23482AB574AB11 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Worksheet.h */; };
+		EC06B197585140DAB8CE4A8C /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/scratch/clsScratchTable.h */ = {isa = PBXBuildFile; fileRef = 9D7CD361E6214C5C8763ED13 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/scratch/clsScratchTable.h */; };
+		F2F2D0286C1C445A90241C3C /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/UTF8Encoder.hpp */ = {isa = PBXBuildFile; fileRef = A5F93090DD2547178F8B72E1 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/UTF8Encoder.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		5024AF684A82447D8C9D0ABD /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		51650DFA425944D3AD1D0B52 /* MinSizeRel */ = {
+		01CB78317B4A401B9BD93EE2 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
-		848A02F727D84A88880A30BB /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		FA5F2367CCEA4A428EF1F9F4 /* RelWithDebInfo */ = {
+		30525C1FF36E4C53A0E7C55D /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
+		BDA7A2A59486431AB207A594 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		EB7C3F6056C54EDE85E144A5 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		1AE1681559B140598A607484 /* PBXContainerItemProxy */ = {
+		4A4C12DEC2864A25BC229A80 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A46FFA258BDF4158BB331254 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F8FB958FDDC0C05AE9A5CF3F;
-			remoteInfo = ALL_BUILD;
-		};
-		5FB84A26AB5645188CFC30F0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A46FFA258BDF4158BB331254 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 54FE747793FF1BF4D830C9B9;
-			remoteInfo = ZERO_CHECK;
-		};
-		8488BC0F37A34DA7A318AE8D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A46FFA258BDF4158BB331254 /* Project object */;
+			containerPortal = 5A47C238020B4EC9B703AA4E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B924DB914AE546B6D796B8D7;
 			remoteInfo = SimpleXlsx;
 		};
-		E6EC54E59CC74192A4A1D0D5 /* PBXContainerItemProxy */ = {
+		60D0A01CC2AA4B768D45F60E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A46FFA258BDF4158BB331254 /* Project object */;
+			containerPortal = 5A47C238020B4EC9B703AA4E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 54FE747793FF1BF4D830C9B9;
+			remoteGlobalIDString = 4287CD49C60759DC19E30446;
+			remoteInfo = ALL_BUILD;
+		};
+		C3F6B62E3EAF4B2693E663BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A47C238020B4EC9B703AA4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4E720C8518CA675D32C7934;
+			remoteInfo = ZERO_CHECK;
+		};
+		FC4C09358F8B42819D2ED0FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A47C238020B4EC9B703AA4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4E720C8518CA675D32C7934;
 			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0873FF8831194F71AC30326E /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Chartsheet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Chartsheet.cpp; path = Xlsx/Chartsheet.cpp; sourceTree = SOURCE_ROOT; };
-		1569D42888DC4F34B88C2A73 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/XLSXColors/XLSXColorLib.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XLSXColorLib.cpp; path = XLSXColors/XLSXColorLib.cpp; sourceTree = SOURCE_ROOT; };
-		2090B4CFEFE2429D892006B6 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/scratch/clsScratchTable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = clsScratchTable.h; path = scratch/clsScratchTable.h; sourceTree = SOURCE_ROOT; };
-		282B5B0B0C6849CAB3A02879 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		2BC84D99709D48568D68E60B /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/scratch/clsScratchTable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clsScratchTable.cpp; path = scratch/clsScratchTable.cpp; sourceTree = SOURCE_ROOT; };
-		39B1079EEDA049F99E5E4432 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/SimpleXlsxDef.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SimpleXlsxDef.cpp; path = Xlsx/SimpleXlsxDef.cpp; sourceTree = SOURCE_ROOT; };
-		417198500D134588A2C72FB6 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/XMLWriter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMLWriter.hpp; path = XMLWriter.hpp; sourceTree = SOURCE_ROOT; };
-		4962D642E1024068B7350B7B /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/XlsxHeaders.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XlsxHeaders.h; path = Xlsx/XlsxHeaders.h; sourceTree = SOURCE_ROOT; };
-		4A9772F60368420E82589DCC /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Zip/zip.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zip.h; path = Zip/zip.h; sourceTree = SOURCE_ROOT; };
-		51D2DDA93DE34737948AC837 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Workbook.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Workbook.h; path = Xlsx/Workbook.h; sourceTree = SOURCE_ROOT; };
-		52BC278A147147559EBDBB0C /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/XLSXColors/XLSXColorLib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XLSXColorLib.h; path = XLSXColors/XLSXColorLib.h; sourceTree = SOURCE_ROOT; };
-		60F4A58900A144E9A28761D5 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/SimpleXlsxDef.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SimpleXlsxDef.h; path = Xlsx/SimpleXlsxDef.h; sourceTree = SOURCE_ROOT; };
-		6176BA943C8F4499A57F70C2 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/XLSXColors/clsRGBColorRecord.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = clsRGBColorRecord.h; path = XLSXColors/clsRGBColorRecord.h; sourceTree = SOURCE_ROOT; };
-		645EE89CD042496AAC8D9CD8 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Worksheet.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Worksheet.h; path = Xlsx/Worksheet.h; sourceTree = SOURCE_ROOT; };
-		7AB5754BB2864750B3D15DDC /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/PathManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PathManager.cpp; path = PathManager.cpp; sourceTree = SOURCE_ROOT; };
-		8505514CE5C545A19E19ACD6 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Chart.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Chart.cpp; path = Xlsx/Chart.cpp; sourceTree = SOURCE_ROOT; };
-		85EA8FCC2DDF4F7CA0582678 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Chartsheet.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Chartsheet.h; path = Xlsx/Chartsheet.h; sourceTree = SOURCE_ROOT; };
-		87253603C32440BEB9639265 /* SimpleXlsx */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSimpleXlsxd.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C424128267047EABC7B7094 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Workbook.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Workbook.cpp; path = Xlsx/Workbook.cpp; sourceTree = SOURCE_ROOT; };
-		8CE69A1697A449AC8716F1A4 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/XlsxHeaders.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XlsxHeaders.cpp; path = Xlsx/XlsxHeaders.cpp; sourceTree = SOURCE_ROOT; };
-		9564541B01A348429C34CF45 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Drawing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Drawing.cpp; path = Xlsx/Drawing.cpp; sourceTree = SOURCE_ROOT; };
-		CD2E98B05CEB45AF95C16F4E /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		CDCA431F75534AA685A63286 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Zip/zip.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zip.cpp; path = Zip/zip.cpp; sourceTree = SOURCE_ROOT; };
-		CE34DDD85B574673B3B4580E /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Chart.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Chart.h; path = Xlsx/Chart.h; sourceTree = SOURCE_ROOT; };
-		CE520419AF7347379B710772 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Worksheet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Worksheet.cpp; path = Xlsx/Worksheet.cpp; sourceTree = SOURCE_ROOT; };
-		D8E5A49EF65F4D6C84D6BDCC /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/XLSXColors/clsRGBColorRecord.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clsRGBColorRecord.cpp; path = XLSXColors/clsRGBColorRecord.cpp; sourceTree = SOURCE_ROOT; };
-		EAF258269FC34B8DB22BF671 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/PathManager.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PathManager.hpp; path = PathManager.hpp; sourceTree = SOURCE_ROOT; };
-		EE8EBB17EA864087BAB6525C /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/UTF8Encoder.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = UTF8Encoder.hpp; path = UTF8Encoder.hpp; sourceTree = SOURCE_ROOT; };
-		FE3A739E55F349AA9F6A23BA /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Drawing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Drawing.h; path = Xlsx/Drawing.h; sourceTree = SOURCE_ROOT; };
+		119B1F9DC0C14DA7A8B19638 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Zip/zip.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zip.h; path = Zip/zip.h; sourceTree = SOURCE_ROOT; };
+		151AC3655D8F490481140065 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		162BEBB0AEC34AEDA2FB6E9C /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Drawing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Drawing.cpp; path = Xlsx/Drawing.cpp; sourceTree = SOURCE_ROOT; };
+		16F3767994684118BE19EB06 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/XMLWriter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = XMLWriter.hpp; path = XMLWriter.hpp; sourceTree = SOURCE_ROOT; };
+		26C5E6C560044AC1A8A4C680 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Chart.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Chart.h; path = Xlsx/Chart.h; sourceTree = SOURCE_ROOT; };
+		2EB3916F5A04437F9B69DA9E /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/XlsxHeaders.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XlsxHeaders.cpp; path = Xlsx/XlsxHeaders.cpp; sourceTree = SOURCE_ROOT; };
+		388F0D56CB23482AB574AB11 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Worksheet.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Worksheet.h; path = Xlsx/Worksheet.h; sourceTree = SOURCE_ROOT; };
+		4A49FB1DEA0D4F8D9B5C5813 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/XlsxHeaders.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XlsxHeaders.h; path = Xlsx/XlsxHeaders.h; sourceTree = SOURCE_ROOT; };
+		4B7B3B55FA3D4FEA90D317C4 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Drawing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Drawing.h; path = Xlsx/Drawing.h; sourceTree = SOURCE_ROOT; };
+		4E782C8C676E4779983F445E /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Chartsheet.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Chartsheet.h; path = Xlsx/Chartsheet.h; sourceTree = SOURCE_ROOT; };
+		6525AEDA2E0E43BB9D3D536E /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/XLSXColors/XLSXColorLib.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XLSXColorLib.cpp; path = XLSXColors/XLSXColorLib.cpp; sourceTree = SOURCE_ROOT; };
+		6A1505AFED0B4752AA9D5ADE /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Chartsheet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Chartsheet.cpp; path = Xlsx/Chartsheet.cpp; sourceTree = SOURCE_ROOT; };
+		6B1A755C42B04E2090460339 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6D006E04B22D49CAA8E51DD3 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Workbook.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Workbook.cpp; path = Xlsx/Workbook.cpp; sourceTree = SOURCE_ROOT; };
+		763FB03353E545098C61D457 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/scratch/clsScratchTable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clsScratchTable.cpp; path = scratch/clsScratchTable.cpp; sourceTree = SOURCE_ROOT; };
+		90933340BC264AAEB1BD25D8 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Workbook.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Workbook.h; path = Xlsx/Workbook.h; sourceTree = SOURCE_ROOT; };
+		91F9A3A754FA40A780E46497 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/XLSXColors/clsRGBColorRecord.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clsRGBColorRecord.cpp; path = XLSXColors/clsRGBColorRecord.cpp; sourceTree = SOURCE_ROOT; };
+		9D7CD361E6214C5C8763ED13 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/scratch/clsScratchTable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = clsScratchTable.h; path = scratch/clsScratchTable.h; sourceTree = SOURCE_ROOT; };
+		A5F93090DD2547178F8B72E1 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/UTF8Encoder.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = UTF8Encoder.hpp; path = UTF8Encoder.hpp; sourceTree = SOURCE_ROOT; };
+		AB190EC16DFA499AB0CCE8A0 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/SimpleXlsxDef.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SimpleXlsxDef.h; path = Xlsx/SimpleXlsxDef.h; sourceTree = SOURCE_ROOT; };
+		ADE3FECB4AC445AAA9FBEFC3 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Worksheet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Worksheet.cpp; path = Xlsx/Worksheet.cpp; sourceTree = SOURCE_ROOT; };
+		B75C5D7D618248F69A2529EC /* SimpleXlsx */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSimpleXlsxd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C028F1037F6044D18843AFD4 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Chart.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Chart.cpp; path = Xlsx/Chart.cpp; sourceTree = SOURCE_ROOT; };
+		D8DF2A3067CC423A95D6763B /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Zip/zip.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zip.cpp; path = Zip/zip.cpp; sourceTree = SOURCE_ROOT; };
+		E240B5EA96B14EB8B3B3ADC0 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/PathManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PathManager.cpp; path = PathManager.cpp; sourceTree = SOURCE_ROOT; };
+		E634CD6B4F2C43CD97CC6417 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/SimpleXlsxDef.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SimpleXlsxDef.cpp; path = Xlsx/SimpleXlsxDef.cpp; sourceTree = SOURCE_ROOT; };
+		EB44FF1356D04A0EB5AE5916 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/XLSXColors/clsRGBColorRecord.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = clsRGBColorRecord.h; path = XLSXColors/clsRGBColorRecord.h; sourceTree = SOURCE_ROOT; };
+		EF65BEE458FB495187E0DC5E /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/XLSXColors/XLSXColorLib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XLSXColorLib.h; path = XLSXColors/XLSXColorLib.h; sourceTree = SOURCE_ROOT; };
+		F9F69B13423643648B0A5BCE /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/PathManager.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PathManager.hpp; path = PathManager.hpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		55226B3890454F6AB402E260 /* Frameworks */ = {
+		FD9D36AAB34F444291D1F391 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -180,103 +180,103 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0625FE05CA5641BFBB62E881 /* SimpleXlsx */ = {
+		2BFB40D38BDC41C6B4AD3B79 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A6E1435A61AF4846B5AC3F75 /* Source Files */,
-				71CFE476FBF64000829FB4DE /* Header Files */,
-				CD2E98B05CEB45AF95C16F4E /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/CMakeLists.txt */,
+				B75C5D7D618248F69A2529EC /* SimpleXlsx */,
 			);
-			name = SimpleXlsx;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		5D320125B23F405BA0097A6C /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				A3D2DB620D3A4570B6D6E095 /* CMake Rules */,
-				282B5B0B0C6849CAB3A02879 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		71CFE476FBF64000829FB4DE /* Header Files */ = {
-			isa = PBXGroup;
-			children = (
-				EAF258269FC34B8DB22BF671 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/PathManager.hpp */,
-				EE8EBB17EA864087BAB6525C /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/UTF8Encoder.hpp */,
-				52BC278A147147559EBDBB0C /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/XLSXColors/XLSXColorLib.h */,
-				6176BA943C8F4499A57F70C2 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/XLSXColors/clsRGBColorRecord.h */,
-				417198500D134588A2C72FB6 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/XMLWriter.hpp */,
-				CE34DDD85B574673B3B4580E /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Chart.h */,
-				85EA8FCC2DDF4F7CA0582678 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Chartsheet.h */,
-				FE3A739E55F349AA9F6A23BA /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Drawing.h */,
-				60F4A58900A144E9A28761D5 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/SimpleXlsxDef.h */,
-				51D2DDA93DE34737948AC837 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Workbook.h */,
-				645EE89CD042496AAC8D9CD8 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Worksheet.h */,
-				4962D642E1024068B7350B7B /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/XlsxHeaders.h */,
-				4A9772F60368420E82589DCC /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Zip/zip.h */,
-				2090B4CFEFE2429D892006B6 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/scratch/clsScratchTable.h */,
-			);
-			name = "Header Files";
-			sourceTree = "<group>";
-		};
-		908D0E39BCDF48F3AFCC1B4D = {
-			isa = PBXGroup;
-			children = (
-				0625FE05CA5641BFBB62E881 /* SimpleXlsx */,
-				5D320125B23F405BA0097A6C /* ALL_BUILD */,
-				E7124CE5F14645CDABD1033B /* Products */,
-				DEFA896D0B57431CA553BE76 /* Frameworks */,
-				C00E2852427549D8AC79EE66 /* Resources */,
-			);
-			sourceTree = "<group>";
-		};
-		A3D2DB620D3A4570B6D6E095 /* CMake Rules */ = {
+		2FD8500B9AE0401189EEC6D0 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		A6E1435A61AF4846B5AC3F75 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				7AB5754BB2864750B3D15DDC /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/PathManager.cpp */,
-				1569D42888DC4F34B88C2A73 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/XLSXColors/XLSXColorLib.cpp */,
-				D8E5A49EF65F4D6C84D6BDCC /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/XLSXColors/clsRGBColorRecord.cpp */,
-				8505514CE5C545A19E19ACD6 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Chart.cpp */,
-				0873FF8831194F71AC30326E /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Chartsheet.cpp */,
-				9564541B01A348429C34CF45 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Drawing.cpp */,
-				39B1079EEDA049F99E5E4432 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/SimpleXlsxDef.cpp */,
-				8C424128267047EABC7B7094 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Workbook.cpp */,
-				CE520419AF7347379B710772 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Worksheet.cpp */,
-				8CE69A1697A449AC8716F1A4 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/XlsxHeaders.cpp */,
-				CDCA431F75534AA685A63286 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Zip/zip.cpp */,
-				2BC84D99709D48568D68E60B /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/scratch/clsScratchTable.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		C00E2852427549D8AC79EE66 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		DEFA896D0B57431CA553BE76 /* Frameworks */ = {
+		50BD45B10BCF44BEA33931F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E7124CE5F14645CDABD1033B /* Products */ = {
+		721D0ECBD0AE4EF39F3DDB8C /* SimpleXlsx */ = {
 			isa = PBXGroup;
 			children = (
-				87253603C32440BEB9639265 /* SimpleXlsx */,
+				AE23A2B456AB490DAEDB7B62 /* Source Files */,
+				9B2EDA67E2194C9CA6E1F10D /* Header Files */,
+				6B1A755C42B04E2090460339 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/CMakeLists.txt */,
 			);
-			name = Products;
+			name = SimpleXlsx;
+			sourceTree = "<group>";
+		};
+		7A07C407C27940A8BD4C5DF8 = {
+			isa = PBXGroup;
+			children = (
+				721D0ECBD0AE4EF39F3DDB8C /* SimpleXlsx */,
+				C302D30A11EB479D837A0428 /* ALL_BUILD */,
+				2BFB40D38BDC41C6B4AD3B79 /* Products */,
+				50BD45B10BCF44BEA33931F5 /* Frameworks */,
+				842B7C3BC47D4853921FF7D1 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		842B7C3BC47D4853921FF7D1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9B2EDA67E2194C9CA6E1F10D /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9F69B13423643648B0A5BCE /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/PathManager.hpp */,
+				A5F93090DD2547178F8B72E1 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/UTF8Encoder.hpp */,
+				EF65BEE458FB495187E0DC5E /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/XLSXColors/XLSXColorLib.h */,
+				EB44FF1356D04A0EB5AE5916 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/XLSXColors/clsRGBColorRecord.h */,
+				16F3767994684118BE19EB06 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/XMLWriter.hpp */,
+				26C5E6C560044AC1A8A4C680 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Chart.h */,
+				4E782C8C676E4779983F445E /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Chartsheet.h */,
+				4B7B3B55FA3D4FEA90D317C4 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Drawing.h */,
+				AB190EC16DFA499AB0CCE8A0 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/SimpleXlsxDef.h */,
+				90933340BC264AAEB1BD25D8 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Workbook.h */,
+				388F0D56CB23482AB574AB11 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Worksheet.h */,
+				4A49FB1DEA0D4F8D9B5C5813 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/XlsxHeaders.h */,
+				119B1F9DC0C14DA7A8B19638 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Zip/zip.h */,
+				9D7CD361E6214C5C8763ED13 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/scratch/clsScratchTable.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		AE23A2B456AB490DAEDB7B62 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E240B5EA96B14EB8B3B3ADC0 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/PathManager.cpp */,
+				6525AEDA2E0E43BB9D3D536E /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/XLSXColors/XLSXColorLib.cpp */,
+				91F9A3A754FA40A780E46497 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/XLSXColors/clsRGBColorRecord.cpp */,
+				C028F1037F6044D18843AFD4 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Chart.cpp */,
+				6A1505AFED0B4752AA9D5ADE /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Chartsheet.cpp */,
+				162BEBB0AEC34AEDA2FB6E9C /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Drawing.cpp */,
+				E634CD6B4F2C43CD97CC6417 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/SimpleXlsxDef.cpp */,
+				6D006E04B22D49CAA8E51DD3 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Workbook.cpp */,
+				ADE3FECB4AC445AAA9FBEFC3 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Worksheet.cpp */,
+				2EB3916F5A04437F9B69DA9E /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/XlsxHeaders.cpp */,
+				D8DF2A3067CC423A95D6763B /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Zip/zip.cpp */,
+				763FB03353E545098C61D457 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/scratch/clsScratchTable.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C302D30A11EB479D837A0428 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				2FD8500B9AE0401189EEC6D0 /* CMake Rules */,
+				151AC3655D8F490481140065 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,55 +284,55 @@
 /* Begin PBXNativeTarget section */
 		B924DB914AE546B6D796B8D7 /* SimpleXlsx */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0E59575178424A7C88911A13 /* Build configuration list for PBXNativeTarget "SimpleXlsx" */;
+			buildConfigurationList = E61FFE91822147ACBE90568A /* Build configuration list for PBXNativeTarget "SimpleXlsx" */;
 			buildPhases = (
-				D2CCF889A97D48478D6B86E3 /* Sources */,
-				55226B3890454F6AB402E260 /* Frameworks */,
+				0EB92A721FC24AF0AA1D6884 /* Sources */,
+				FD9D36AAB34F444291D1F391 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7CD579B0957A41008BA7EDC1 /* PBXTargetDependency */,
+				AD5BCABC5B8340DC8C63B832 /* PBXTargetDependency */,
 			);
 			name = SimpleXlsx;
 			productName = SimpleXlsx;
-			productReference = 87253603C32440BEB9639265 /* SimpleXlsx */;
+			productReference = B75C5D7D618248F69A2529EC /* SimpleXlsx */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A46FFA258BDF4158BB331254 /* Project object */ = {
+		5A47C238020B4EC9B703AA4E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1620;
 			};
-			buildConfigurationList = 0F093A3D609E433A9647CB67 /* Build configuration list for PBXProject "SimpleXlsx" */;
+			buildConfigurationList = EE51C82A566A4802819F8B47 /* Build configuration list for PBXProject "SimpleXlsx" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				5024AF684A82447D8C9D0ABD /* Debug */,
-				848A02F727D84A88880A30BB /* Release */,
-				51650DFA425944D3AD1D0B52 /* MinSizeRel */,
-				FA5F2367CCEA4A428EF1F9F4 /* RelWithDebInfo */,
+				EB7C3F6056C54EDE85E144A5 /* Debug */,
+				BDA7A2A59486431AB207A594 /* Release */,
+				01CB78317B4A401B9BD93EE2 /* MinSizeRel */,
+				30525C1FF36E4C53A0E7C55D /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 908D0E39BCDF48F3AFCC1B4D;
-			projectDirPath = /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx;
+			mainGroup = 7A07C407C27940A8BD4C5DF8;
+			projectDirPath = /Users/user/exelize/xlsx/lib_xlsx/xlsx;
 			projectRoot = "";
 			targets = (
-				F8FB958FDDC0C05AE9A5CF3F /* ALL_BUILD */,
+				4287CD49C60759DC19E30446 /* ALL_BUILD */,
 				B924DB914AE546B6D796B8D7 /* SimpleXlsx */,
-				54FE747793FF1BF4D830C9B9 /* ZERO_CHECK */,
-				38D659A570E13F3DAA23FE31 /* install */,
+				B4E720C8518CA675D32C7934 /* ZERO_CHECK */,
+				3C1012DB519DC63FC3EEA010 /* install */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		219C375B4D1CEED1E6D97EE4 /* Generate CMakeFiles/ALL_BUILD */ = {
+		15AF752AEFECBCECF1CD698D /* Generate CMakeFiles/ALL_BUILD */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -342,25 +342,58 @@
 			);
 			name = "Generate CMakeFiles/ALL_BUILD";
 			outputPaths = (
-/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/CMakeFiles/ALL_BUILD			);
+/Users/user/exelize/xlsx/lib_xlsx/build_mac/CMakeFiles/ALL_BUILD			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e
 if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac
+  cd /Users/user/exelize/xlsx/lib_xlsx/build_mac
   echo Build\\ all\\ projects
 fi
 if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac
+  cd /Users/user/exelize/xlsx/lib_xlsx/build_mac
   echo Build\\ all\\ projects
 fi
 if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac
+  cd /Users/user/exelize/xlsx/lib_xlsx/build_mac
   echo Build\\ all\\ projects
 fi
 if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac
+  cd /Users/user/exelize/xlsx/lib_xlsx/build_mac
   echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		31D68EA13C1A97E1864A46D8 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/user/exelize/xlsx/lib_xlsx/build_mac/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/user/exelize/xlsx/lib_xlsx/build_mac
+  make -f /Users/user/exelize/xlsx/lib_xlsx/build_mac/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/user/exelize/xlsx/lib_xlsx/build_mac
+  make -f /Users/user/exelize/xlsx/lib_xlsx/build_mac/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/user/exelize/xlsx/lib_xlsx/build_mac
+  make -f /Users/user/exelize/xlsx/lib_xlsx/build_mac/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/user/exelize/xlsx/lib_xlsx/build_mac
+  make -f /Users/user/exelize/xlsx/lib_xlsx/build_mac/CMakeScripts/ReRunCMake.make
 fi
 ";
 			showEnvVarsInLog = 0;
@@ -408,19 +441,19 @@ exit 0";
 			shellPath = /bin/sh;
 			shellScript = "set -e
 if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac
+  cd /Users/user/exelize/xlsx/lib_xlsx/build_mac
   /usr/local/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
 fi
 if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac
+  cd /Users/user/exelize/xlsx/lib_xlsx/build_mac
   /usr/local/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
 fi
 if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac
+  cd /Users/user/exelize/xlsx/lib_xlsx/build_mac
   /usr/local/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
 fi
 if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac
+  cd /Users/user/exelize/xlsx/lib_xlsx/build_mac
   /usr/local/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
 fi
 ";
@@ -441,119 +474,60 @@ fi
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		AA903FBFF9BADA337385CC7D /* Generate CMakeFiles/ZERO_CHECK */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Generate CMakeFiles/ZERO_CHECK";
-			outputPaths = (
-/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/CMakeFiles/ZERO_CHECK			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e
-if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac
-  make -f /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/CMakeScripts/ReRunCMake.make
-fi
-if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac
-  make -f /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/CMakeScripts/ReRunCMake.make
-fi
-if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac
-  make -f /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/CMakeScripts/ReRunCMake.make
-fi
-if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac
-  make -f /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/CMakeScripts/ReRunCMake.make
-fi
-";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D2CCF889A97D48478D6B86E3 /* Sources */ = {
+		0EB92A721FC24AF0AA1D6884 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EF3F1E1A71B4493AD0F9474 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/PathManager.cpp */,
-				69CC6F3B574D4668BA4A79FB /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/XLSXColors/XLSXColorLib.cpp */,
-				5789542507444ED2B8E6AF26 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/XLSXColors/clsRGBColorRecord.cpp */,
-				93813B3BBD6046D6B0EC7704 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Chart.cpp */,
-				D96D587406DC43EB8F92DECC /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Chartsheet.cpp */,
-				725F1AAFC91B4AEDA95E9A12 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Drawing.cpp */,
-				800DAEA3BB3B4C80AFC888D1 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/SimpleXlsxDef.cpp */,
-				4699B5ACCD544324B3C7F158 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Workbook.cpp */,
-				0684B3C4F5CC46FAA30FBB03 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/Worksheet.cpp */,
-				55F2E48DCE034B50AD598053 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Xlsx/XlsxHeaders.cpp */,
-				D588E2AAB88F40279561E82B /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/Zip/zip.cpp */,
-				4526505CFAF54F4C9D57FFB4 /* /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/xlsx/scratch/clsScratchTable.cpp */,
+				AC3A8EAC866B486C9443F976 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/PathManager.cpp */,
+				52A98D9BCD8A4F5594EBA894 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/XLSXColors/XLSXColorLib.cpp */,
+				49905D48A2594708878349B8 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/XLSXColors/clsRGBColorRecord.cpp */,
+				91456D822ABB49B68057CB3E /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Chart.cpp */,
+				6130E7C9FDF24D2B87843522 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Chartsheet.cpp */,
+				A61B5F3DDE5C4836A18FB34D /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Drawing.cpp */,
+				17349E68AC824C9093F7ED8C /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/SimpleXlsxDef.cpp */,
+				8BA202161DE14B08A9FC5B08 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Workbook.cpp */,
+				C6FBFE6CAB124E12B4265492 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/Worksheet.cpp */,
+				3F79B806B7554A4F87F1F92F /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Xlsx/XlsxHeaders.cpp */,
+				977370887E0445C8891B4135 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/Zip/zip.cpp */,
+				1B9BA10DFF1C469DA60E6124 /* /Users/user/exelize/xlsx/lib_xlsx/xlsx/scratch/clsScratchTable.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3358CC63E91C4AB89ADC2E15 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 54FE747793FF1BF4D830C9B9 /* ZERO_CHECK */;
-			targetProxy = 5FB84A26AB5645188CFC30F0 /* PBXContainerItemProxy */;
-		};
-		4057FBBFFB6E4CBCB036491B /* PBXTargetDependency */ = {
+		7E6C22C8991544B5A1EE379A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B924DB914AE546B6D796B8D7 /* SimpleXlsx */;
-			targetProxy = 8488BC0F37A34DA7A318AE8D /* PBXContainerItemProxy */;
+			targetProxy = 4A4C12DEC2864A25BC229A80 /* PBXContainerItemProxy */;
 		};
-		7CD579B0957A41008BA7EDC1 /* PBXTargetDependency */ = {
+		AD38BED9403043169B0198A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 54FE747793FF1BF4D830C9B9 /* ZERO_CHECK */;
-			targetProxy = E6EC54E59CC74192A4A1D0D5 /* PBXContainerItemProxy */;
+			target = 4287CD49C60759DC19E30446 /* ALL_BUILD */;
+			targetProxy = 60D0A01CC2AA4B768D45F60E /* PBXContainerItemProxy */;
 		};
-		E27E56CBE2024C4F9C2E1DDE /* PBXTargetDependency */ = {
+		AD5BCABC5B8340DC8C63B832 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F8FB958FDDC0C05AE9A5CF3F /* ALL_BUILD */;
-			targetProxy = 1AE1681559B140598A607484 /* PBXContainerItemProxy */;
+			target = B4E720C8518CA675D32C7934 /* ZERO_CHECK */;
+			targetProxy = C3F6B62E3EAF4B2693E663BF /* PBXContainerItemProxy */;
+		};
+		B1F3A4F3CD534DF9A076F638 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4E720C8518CA675D32C7934 /* ZERO_CHECK */;
+			targetProxy = FC4C09358F8B42819D2ED0FE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0F57EA80DE9F4646B846ED00 /* MinSizeRel */ = {
+		04515D810D1945158C6CE3C3 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/MinSizeRel;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = SimpleXlsx;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/build/SimpleXlsx.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		1F9AF88181084D17A9B58489 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/RelWithDebInfo;
+				CONFIGURATION_BUILD_DIR = /Users/user/exelize/xlsx/lib_xlsx/build_mac/RelWithDebInfo;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -568,216 +542,13 @@ fi
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = SimpleXlsx;
 				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/build/SimpleXlsx.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				TARGET_TEMP_DIR = "/Users/user/exelize/xlsx/lib_xlsx/build_mac/build/SimpleXlsx.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		30E23C4DB1B64C0EBFD8C8DB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		3E4AB69A1619471E89EDE2EF /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/build;
-			};
-			name = MinSizeRel;
-		};
-		4DCB4E796F514E96BAA3951D /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		4EA66647E4314B93B34BF1FE /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		8546B14746F14DAD8E54592C /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		9128E060AE3843D99707B404 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		9D2AC608BEC24ACA8E3E3D9F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/build;
-			};
-			name = Release;
-		};
-		9DB7C251A4F24CE8A1F5E429 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		A805E3CD4AE24B41BF2BA6B9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		B22DB2F2EB46494F89817782 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
-				SYMROOT = /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/build;
-			};
-			name = Debug;
-		};
-		B45B863C6BB34500BAE307E1 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		C136D0EBCB8F450E863837DE /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/build;
-			};
-			name = RelWithDebInfo;
-		};
-		C775600DD42C457EB8B79E95 /* Debug */ = {
+		18F821B25DD04F92BB8570D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -797,7 +568,49 @@ fi
 			};
 			name = Debug;
 		};
-		CC324D8B4DB74803A46CBBF5 /* Debug */ = {
+		2E0C1866B80D4BE2B15D190A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/user/exelize/xlsx/lib_xlsx/build_mac/build;
+			};
+			name = MinSizeRel;
+		};
+		3BEC20917D6641379E85BAEB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3EBF0BB1CA0E496394AC7E14 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/user/exelize/xlsx/lib_xlsx/build_mac/build;
+			};
+			name = RelWithDebInfo;
+		};
+		55493EE246CB426392EC4CF6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -815,40 +628,34 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Debug;
+			name = Release;
 		};
-		DB3E4E9DF3CF4A5CBEB78CBE /* Release */ = {
+		5B3EAE32FDDF4DB28F7224D0 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/Release;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
-				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = SimpleXlsx;
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/build/SimpleXlsx.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Release;
+			name = RelWithDebInfo;
 		};
-		E2551D741CB94E57B4B4810B /* Debug */ = {
+		71413AF1E49D458D8779B6B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/Debug;
+				CONFIGURATION_BUILD_DIR = /Users/user/exelize/xlsx/lib_xlsx/build_mac/Debug;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -863,13 +670,24 @@ fi
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = SimpleXlsxd;
 				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/user/exelize/xlsx/xlsx_doc/lib_xlsx/build_mac/build/SimpleXlsx.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				TARGET_TEMP_DIR = "/Users/user/exelize/xlsx/lib_xlsx/build_mac/build/SimpleXlsx.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		E86260A0B4534F3E843A8371 /* MinSizeRel */ = {
+		788E42BB3D75494495B89E19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/user/exelize/xlsx/lib_xlsx/build_mac/build;
+			};
+			name = Release;
+		};
+		813A00C83F0F4BBE93BA3E69 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -889,7 +707,83 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		FB26D32557784A8897862361 /* Release */ = {
+		8BA0BCD9F9E34FD7BE45231F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/user/exelize/xlsx/lib_xlsx/build_mac/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SimpleXlsx;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/user/exelize/xlsx/lib_xlsx/build_mac/build/SimpleXlsx.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9A1B32FD734E497B8F0F81B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SYMROOT = /Users/user/exelize/xlsx/lib_xlsx/build_mac/build;
+			};
+			name = Debug;
+		};
+		9AB93B3D0B494A5C90312183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		AE5AF071D67A4776B800885C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B761FA187AFF4B54930213F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -909,65 +803,171 @@ fi
 			};
 			name = Release;
 		};
+		BD4C08D22B234BC8A5F904ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		CAAA63DAB16A4221B331FC7B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/user/exelize/xlsx/lib_xlsx/build_mac/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SimpleXlsx;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/user/exelize/xlsx/lib_xlsx/build_mac/build/SimpleXlsx.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D28A91056C7E49D595DB78C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DEAD1C6A68784E4183CD991C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FB43018BA3AB47B4BAB6DF1E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0E59575178424A7C88911A13 /* Build configuration list for PBXNativeTarget "SimpleXlsx" */ = {
+		5E614862C43348CCA395CEF8 /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2551D741CB94E57B4B4810B /* Debug */,
-				DB3E4E9DF3CF4A5CBEB78CBE /* Release */,
-				0F57EA80DE9F4646B846ED00 /* MinSizeRel */,
-				1F9AF88181084D17A9B58489 /* RelWithDebInfo */,
+				9AB93B3D0B494A5C90312183 /* Debug */,
+				BD4C08D22B234BC8A5F904ED /* Release */,
+				FB43018BA3AB47B4BAB6DF1E /* MinSizeRel */,
+				DEAD1C6A68784E4183CD991C /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		0F093A3D609E433A9647CB67 /* Build configuration list for PBXProject "SimpleXlsx" */ = {
+		5ECF63ED3D0D439F94DF6F77 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B22DB2F2EB46494F89817782 /* Debug */,
-				9D2AC608BEC24ACA8E3E3D9F /* Release */,
-				3E4AB69A1619471E89EDE2EF /* MinSizeRel */,
-				C136D0EBCB8F450E863837DE /* RelWithDebInfo */,
+				18F821B25DD04F92BB8570D2 /* Debug */,
+				B761FA187AFF4B54930213F1 /* Release */,
+				AE5AF071D67A4776B800885C /* MinSizeRel */,
+				3BEC20917D6641379E85BAEB /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		388BA201104B467FB97AA537 /* Build configuration list for PBXAggregateTarget "install" */ = {
+		CC06FDC491AC436CA87B6A49 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A805E3CD4AE24B41BF2BA6B9 /* Debug */,
-				30E23C4DB1B64C0EBFD8C8DB /* Release */,
-				8546B14746F14DAD8E54592C /* MinSizeRel */,
-				4DCB4E796F514E96BAA3951D /* RelWithDebInfo */,
+				D28A91056C7E49D595DB78C2 /* Debug */,
+				55493EE246CB426392EC4CF6 /* Release */,
+				813A00C83F0F4BBE93BA3E69 /* MinSizeRel */,
+				5B3EAE32FDDF4DB28F7224D0 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		464AE460F5D64766B2823F14 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		E61FFE91822147ACBE90568A /* Build configuration list for PBXNativeTarget "SimpleXlsx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C775600DD42C457EB8B79E95 /* Debug */,
-				FB26D32557784A8897862361 /* Release */,
-				B45B863C6BB34500BAE307E1 /* MinSizeRel */,
-				9128E060AE3843D99707B404 /* RelWithDebInfo */,
+				71413AF1E49D458D8779B6B4 /* Debug */,
+				8BA0BCD9F9E34FD7BE45231F /* Release */,
+				CAAA63DAB16A4221B331FC7B /* MinSizeRel */,
+				04515D810D1945158C6CE3C3 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		82D4950A78A54073B10F6E3B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		EE51C82A566A4802819F8B47 /* Build configuration list for PBXProject "SimpleXlsx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC324D8B4DB74803A46CBBF5 /* Debug */,
-				9DB7C251A4F24CE8A1F5E429 /* Release */,
-				E86260A0B4534F3E843A8371 /* MinSizeRel */,
-				4EA66647E4314B93B34BF1FE /* RelWithDebInfo */,
+				9A1B32FD734E497B8F0F81B4 /* Debug */,
+				788E42BB3D75494495B89E19 /* Release */,
+				2E0C1866B80D4BE2B15D190A /* MinSizeRel */,
+				3EBF0BB1CA0E496394AC7E14 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A46FFA258BDF4158BB331254 /* Project object */;
+	rootObject = 5A47C238020B4EC9B703AA4E /* Project object */;
 }
