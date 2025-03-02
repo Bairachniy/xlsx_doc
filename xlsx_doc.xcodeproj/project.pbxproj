@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CED410EB2D74951F0076828B /* libSimpleXlsxd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CED410EA2D7495100076828B /* libSimpleXlsxd.a */; };
+		CED411142D74968A0076828B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED411122D74968A0076828B /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +36,12 @@
 /* Begin PBXFileReference section */
 		CED410AF2D7484280076828B /* xlsx_doc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = xlsx_doc; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED410E22D7495100076828B /* SimpleXlsx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SimpleXlsx.xcodeproj; path = lib_xlsx/build_mac/SimpleXlsx.xcodeproj; sourceTree = "<group>"; };
+		CED411052D74968A0076828B /* 82b82416624d2658e5098eb0a28c15c5-common-args.resp */ = {isa = PBXFileReference; lastKnownFileType = text; path = "82b82416624d2658e5098eb0a28c15c5-common-args.resp"; sourceTree = "<group>"; };
+		CED411062D74968A0076828B /* SimpleXlsxd.LinkFileList */ = {isa = PBXFileReference; lastKnownFileType = text; path = SimpleXlsxd.LinkFileList; sourceTree = "<group>"; };
+		CED411092D74968A0076828B /* SimpleXlsxd.DependencyMetadataFileList */ = {isa = PBXFileReference; lastKnownFileType = text; path = SimpleXlsxd.DependencyMetadataFileList; sourceTree = "<group>"; };
+		CED4110A2D74968A0076828B /* SimpleXlsxd-preparedForIndex-module */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SimpleXlsxd-preparedForIndex-module"; sourceTree = "<group>"; };
+		CED411122D74968A0076828B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		CED410B12D7484280076828B /* xlsx_doc */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = xlsx_doc;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CED410AC2D7484280076828B /* Frameworks */ = {
@@ -60,8 +58,8 @@
 		CED410A62D7484280076828B = {
 			isa = PBXGroup;
 			children = (
+				CED411132D74968A0076828B /* xlsx_main */,
 				CED410E22D7495100076828B /* SimpleXlsx.xcodeproj */,
-				CED410B12D7484280076828B /* xlsx_doc */,
 				CED410C22D7485A60076828B /* Frameworks */,
 				CED410B02D7484280076828B /* Products */,
 			);
@@ -90,6 +88,90 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		CED411072D74968A0076828B /* x86_64 */ = {
+			isa = PBXGroup;
+			children = (
+				CED411052D74968A0076828B /* 82b82416624d2658e5098eb0a28c15c5-common-args.resp */,
+				CED411062D74968A0076828B /* SimpleXlsxd.LinkFileList */,
+			);
+			path = x86_64;
+			sourceTree = "<group>";
+		};
+		CED411082D74968A0076828B /* Objects-normal */ = {
+			isa = PBXGroup;
+			children = (
+				CED411072D74968A0076828B /* x86_64 */,
+			);
+			path = "Objects-normal";
+			sourceTree = "<group>";
+		};
+		CED4110B2D74968A0076828B /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				CED411082D74968A0076828B /* Objects-normal */,
+				CED411092D74968A0076828B /* SimpleXlsxd.DependencyMetadataFileList */,
+				CED4110A2D74968A0076828B /* SimpleXlsxd-preparedForIndex-module */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		CED4110C2D74968A0076828B /* SimpleXlsx.build */ = {
+			isa = PBXGroup;
+			children = (
+				CED4110B2D74968A0076828B /* Debug */,
+			);
+			path = SimpleXlsx.build;
+			sourceTree = "<group>";
+		};
+		CED4110D2D74968A0076828B /* build */ = {
+			isa = PBXGroup;
+			children = (
+				CED4110C2D74968A0076828B /* SimpleXlsx.build */,
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
+		CED4110E2D74968A0076828B /* CMakeFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CMakeFiles;
+			sourceTree = "<group>";
+		};
+		CED4110F2D74968A0076828B /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		CED411102D74968A0076828B /* build_mac */ = {
+			isa = PBXGroup;
+			children = (
+				CED4110D2D74968A0076828B /* build */,
+				CED4110E2D74968A0076828B /* CMakeFiles */,
+				CED4110F2D74968A0076828B /* Debug */,
+			);
+			path = build_mac;
+			sourceTree = "<group>";
+		};
+		CED411112D74968A0076828B /* lib_xlsx */ = {
+			isa = PBXGroup;
+			children = (
+				CED411102D74968A0076828B /* build_mac */,
+			);
+			path = lib_xlsx;
+			sourceTree = "<group>";
+		};
+		CED411132D74968A0076828B /* xlsx_main */ = {
+			isa = PBXGroup;
+			children = (
+				CED411112D74968A0076828B /* lib_xlsx */,
+				CED411122D74968A0076828B /* main.cpp */,
+			);
+			path = xlsx_main;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -104,9 +186,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				CED410B12D7484280076828B /* xlsx_doc */,
 			);
 			name = xlsx_doc;
 			packageProductDependencies = (
@@ -169,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED411142D74968A0076828B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
